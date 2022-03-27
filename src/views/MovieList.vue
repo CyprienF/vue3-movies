@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MovieItem from '@/components/movies/MovieItem.vue';
 
-const movies: string[] = ["414906", "438631", "370172"];
+const movies: string[] = ["3"];
 
 </script>
 

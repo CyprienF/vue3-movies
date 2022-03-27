@@ -18,7 +18,7 @@ const { data, error } = getMovie(props.id);
       <div class="card-image">
         <figure class="image">
           <img
-            :src="`https://www.themoviedb.org/t/p/original/${data.backdrop_path}`"
+            :src="`https://www.themoviedb.org/t/p/original/${data.backgroundImage}`"
             alt="Placeholder image"
           />
         </figure>
