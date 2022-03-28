@@ -1,28 +1,23 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-primary">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
-      </a>
-
-      <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <a class="navbar-item" href="https://bulma.io">Vue3 Movies</a>
+      <div class="navbar-burger" data-target="navMenuColorprimary-example">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navMenuColorprimary-example" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">Home</a>
+        <a class="navbar-item">
+          <router-link to="/">Home</router-link>
+        </a>
 
-        <a class="navbar-item">Movies</a>
+        <a class="navbar-item">
+          <router-link to="/movies">Movies</router-link>
+        </a>
       </div>
     </div>
   </nav>

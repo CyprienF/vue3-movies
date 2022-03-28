@@ -1,1 +1,13 @@
 @import "../node_modules/bulma/css/bulma.css";
+
+a, a:hover {
+  color: #ffffff;
+}
+
+.card {
+  height: 100%;
+}
+
+.movie-list {
+  margin-top: 30px;
+}
