@@ -19,7 +19,9 @@ const { data, error } = getMovies();
 
       <div class="columns is-multiline">
         <div v-for="movie in data" :key="movie.id" class="column is-one-third">
-          <MovieItem :movie="movie" />
+          <router-link :to="{ name: 'movie-details', params: { id: movie.id } }">
+            <MovieItem :movie="movie" />
+          </router-link>
         </div>
       </div>
     </div>
