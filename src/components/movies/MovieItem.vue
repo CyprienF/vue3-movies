@@ -11,7 +11,7 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="title is-4">{{ props.movie.title }}</p>
+          <p class="title is-4">{{ props.movie.title }} <span class="title is-6">({{ props.movie.releaseDate }})</span></p>
           <p class="subtitle is-6">{{ props.movie.runtime }} minutes</p>
         </div>
       </div>

@@ -3,5 +3,6 @@ export interface Movie {
   title: string
   runtime: number
   overview: string
+  releaseDate: string
   backgroundImage: string
 }
