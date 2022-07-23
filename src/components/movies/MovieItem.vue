@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import type { Movie } from "@/models/movie";
-
-interface Props {
-  movie: Movie
-}
-
-const props = defineProps<Props>();
-</script>
-
 <template>
   <div class="card">
     <div class="card-image">
@@ -30,3 +20,11 @@ const props = defineProps<Props>();
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import type { Movie } from "@/models/movie";
+
+const props = defineProps<{
+  movie: Movie
+}>();
+</script>
